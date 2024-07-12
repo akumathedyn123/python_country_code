@@ -11,21 +11,21 @@ This repository contains a list of country codes in Python.
 
 ## Introduction
 
-The `mcountry_code` list in this repository provides a comprehensive collection of two-letter country codes. These codes are commonly used in various applications, databases, and APIs to represent countries.
+The `country_code` list in this repository provides a comprehensive collection of two-letter country codes. These codes are commonly used in various applications, databases, and APIs to represent countries.
 
 ## Usage
 
-To use the `mcountry_code` list in your Python code, simply import it as follows:
+To use the `country_code` list in your Python code, simply import it as follows:
 
 ```python
-from country_codes import mcountry_code
+from country_codes import country_code
 
 # Access individual country codes
-print(mcountry_code[0])  # Output: "AF"
-print(mcountry_code[1])  # Output: "AX"
+print(country_code[0])  # Output: "AF"
+print(country_code[1])  # Output: "AX"
 
 # Iterate over all country codes
-for code in mcountry_code:
+for code in country_code:
     print(code)
 ```
 
